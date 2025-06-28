@@ -24,7 +24,7 @@ const aiUnknownImageResponse = 'ขออภัยครับ ไม่สา�
 const aiErrorMessage = 'ขออภัยครับ มีการเรียกใช้งานมากเกินไป ลองใหม่อีกครั้งในภายหลังนะครับ';
 
 // --- Start ngrok for local development (อันนี้ไว้สำหรับรัน server บนเครื่อง ไว้ทดสอบ debug ไม่จำเป็นต้องเปิด) ---
-(async function () {
+/* (async function () {
   console.log('Starting ngrok...');
   const url = await ngrok.connect({
     addr: PORT,
@@ -35,7 +35,7 @@ const aiErrorMessage = 'ขออภัยครับ มีการเรี�
 });
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
-});
+}); */
 // --- Helper Functions for Gemini API ---
 
 /**
